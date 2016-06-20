@@ -2,12 +2,20 @@
 This project is using the Logstash to get data from Twitter. Then use the PySpark K-Means algorithm to clustering.
 
 ##Architecture
-![Architecture](architecture.png)
+![Architecture](Architecture.png)
 
-##Enviroment
-* Programming Language: Python 2.7 (iPython Notebook)
-* Logstash version is 2.3.1 .
-* Elasticsearch version is 2.3.1.
+##Environment
+* Anaconda version: 4.0.8
+* Python version: 2.7.11 
+* iPython version: 4.1.2
+* Spark version: 1.5.2
+* NLTK version: 3.2
+* Pandas version: 0.18.1
+* Scikit-learn version: 0.17.1
+* Snow Ball Stemmer version: 1.2.1
+* Bokeh version: 0.11.1
+* Logstash version: 2.3.1
+* Elasticsearch version: 2.3.1
 * JAVA Version 8 Update 77
 
 ##Data Collection
