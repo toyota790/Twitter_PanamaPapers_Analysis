@@ -36,7 +36,8 @@ This project is using the Logstash to get data from Twitter. Then use the PySpar
 	* Total: 200000 (484 MB)
 	* Training dataset: 20000
 * Time
-	* Start: Sun Apr 10 16:18:35 +0000 2016	* End: Wed Apr 13 18:32:27 +0000 2016
+	* Start: Sun Apr 10 16:18:35 +0000 2016
+	* End: Wed Apr 13 18:32:27 +0000 2016
 
 ##Data Cleaning
 * URL
@@ -46,15 +47,26 @@ This project is using the Logstash to get data from Twitter. Then use the PySpar
 * Alphabet
 	* a, c, l, etc.
 * Stop word
-	*  NLTK’s list of English stop words* Punctuation
+	*  NLTK’s list of English stop words
+* Punctuation
 	* dot, question mark, etc.
-##Future Selection
+##Feature Selection
 * Stemming
-	* Panamapapers -> panamapap	* Family -> famili	* Link -> link* Tokenizing 
-* TF-IDF	* 2000 features
+	* Panamapapers -> panamapap
+	* Family -> famili
+	* Link -> link
+* Tokenizing 
+* TF-IDF
+	* 2000 features
 
 ##Data Modeling
-* K-means++ Clustering Algorithm	* K=4* The size of each cluster:	* Cluster 0: 5158	* Cluster 1: 964	* Cluster 2: 13233	* Cluster 3: 645
+* K-means++ Clustering Algorithm
+	* K=4
+* The size of each cluster:
+	* Cluster 0: 5158
+	* Cluster 1: 964
+	* Cluster 2: 13233
+	* Cluster 3: 645
 
 ##Visualization
 * Bokeh (Two dimensions)
@@ -64,7 +76,9 @@ This project is using the Logstash to get data from Twitter. Then use the PySpar
 ![Word Cloud Cluster 0] (Result/WordCloud_cluster0.png)
 
 * Word Cloud - Cluster 1
-![Word Cloud Cluster 1] (Result/WordCloud_cluster1.png)* Word Cloud - Cluster 2
+![Word Cloud Cluster 1] (Result/WordCloud_cluster1.png)
+
+* Word Cloud - Cluster 2
 ![Word Cloud Cluster 2] (Result/WordCloud_cluster2.png)
 
 * Word Cloud - Cluster 3
